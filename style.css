@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.names{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.firstname input {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+}
+.lastname_holder input{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+}
+body {
+    background-color: whitesmoke;
+    
+}
+.age_holder input{
+    width: 300px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;;
+}
+.gender_holder{
+   margin-right: 55px;
+   font-weight: 900;
+}
+.gender_holder label{
+    font-size: 25px;
+}
+.gender_holder input{
+    height: 20px;
+    width: 30px;
+}
+.phonebook_school{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.phonebook_school input {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+}
+.section2{
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.continent{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.continent select{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;  
+}
+.subject11{
+    width: 70%;
+    margin: auto;
+}
+.subject11 input{
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+    margin-top: 30px;
+}
+.subject11 select {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid black;
+    margin-top: 30px; 
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.submit input{
+    padding: 17px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+.firstname_error, .lastname_error, .age_error, .gender_error, .phone_number_error, .school_error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+nav {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav a:hover{
+    transition: .3s;
+    color: red;
+}
+nav img {
+    width: 50%;
+    padding: 10px 0px;
+}
+.navigation{
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+.scholarship{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+}
+.nav_bar div{
+    margin-left: 190px;
+    justify-content:center;
+}
+#statement{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70%;
+    padding-top: 40px;
+    margin: auto;
+}
